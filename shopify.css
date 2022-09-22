@@ -24,8 +24,8 @@
     font-family: Arial, Helvetica, sans-serif;
    }
    .button:hover{
-    background:
-        linear-gradient(to top right, rgb(58, 240, 253), transparent),
+     background:
+     linear-gradient(to top right, rgb(58, 240, 253), transparent),
         linear-gradient(to top left , rgb(14, 167, 34), transparent),
         linear-gradient(to bottom , rgb(14, 167, 34), transparent);
     background-blend-mode: screen;
@@ -69,10 +69,10 @@
   .services4{
     margin-right: 200px;
   }
-  .services8{
+  /* .services8{
     margin-right: 100px;
     background-color: rgb(24, 168, 101);
-  }
+  } */
   .img1{
     height: 40px;
     margin-left: 100px;
@@ -82,21 +82,21 @@
     display: block;
   }
   ul li:hover{
-    background-color: white;
-    color: black;
+    /* background-color: white; */
+    color: black; 
   }
-  .services:hover {
+  /* .services:hover {
     background-color:white;
     color: black;
-  }
+  } */
   .services:hover .dropdown{
     display: block;
   }
-  .services8:hover{
+  /* .services8:hover{
     background-color: #013636;
     color: white;
     border: 0.5px solid orange;
-  }
+  } */
   .container {
     height: calc(100vh - 140px);
     background-color: #002d2d;
@@ -136,7 +136,7 @@
     margin-left: 100px;
     float: left;
   }
-  button{
+  .End{
     /* width: 200px;
     height: 40px; */
     margin-left: 50px;
@@ -145,6 +145,7 @@
     padding-right: 50px;
     padding-left: 50px;
     border-radius: 5px;
+    border: none;
     color: white;
     background-color: rgb(24, 168, 101);
     cursor: pointer;
@@ -164,6 +165,19 @@
     margin-top: 5px;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+  }
+  .Start{
+    margin-top: 15px;
+    margin-right: 100px;
+    width: 300px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(24, 168, 101);
+    cursor: pointer;
   }
   img{
     float: right;
