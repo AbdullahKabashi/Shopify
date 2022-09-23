@@ -69,10 +69,7 @@
   .services4{
     margin-right: 200px;
   }
-  /* .services8{
-    margin-right: 100px;
-    background-color: rgb(24, 168, 101);
-  } */
+
   .img1{
     height: 40px;
     margin-left: 100px;
@@ -82,21 +79,12 @@
     display: block;
   }
   ul li:hover{
-    /* background-color: white; */
-    color: black; 
+    color: white; 
   }
-  /* .services:hover {
-    background-color:white;
-    color: black;
-  } */
   .services:hover .dropdown{
+    color: black;
     display: block;
   }
-  /* .services8:hover{
-    background-color: #013636;
-    color: white;
-    border: 0.5px solid orange;
-  } */
   .container {
     height: calc(100vh - 140px);
     background-color: #002d2d;
@@ -137,8 +125,6 @@
     float: left;
   }
   .End{
-    /* width: 200px;
-    height: 40px; */
     margin-left: 50px;
     padding-top: 15px ;
     padding-bottom: 15px;
