@@ -1,0 +1,51 @@
+.wrapper div {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+.wrapper{
+    height: 1500px;
+    border: 1px solid red;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.absolute{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.relative{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    /* top: 20px; */
+}
+.relative:hover {
+    background-color: black;
+    border: 1px solid lightcoral;
+    color: white;
+    border-radius: 45%;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.relative:active {
+    background-color: blue;
+    border-radius: 45%;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: center;
+    color: wheat;
+}
+/* .fixed {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+}
+.sticky {
+position: sticky;
+top: 20px;
+} */

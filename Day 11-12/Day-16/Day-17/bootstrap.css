@@ -1,0 +1,17 @@
+.cards-container {
+    border: 1px solid red;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .cards-container .card.card-costumized {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .carousel-customised, .carousel-inner {
+    height: calc(100vh - 56px);
+  }

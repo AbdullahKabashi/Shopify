@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(13, 158, 163);
+}
+.sidebar{
+    position: absolute;
+    top: 0%;
+    height: 100vh;
+    width: 60vw;
+    background-color: orange;
+    display: none;
+
+}
+
+.box{
+    border: 1px solid;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+}
+.box:hover + .sidebar{
+    animation-name: sidebarMovement;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    display: block;
+}
+
+@keyframes sidebarMovement {
+    0%{
+        transform: translateX(-60vw);
+    }
+    80% {
+        transform: translateX(0vw);
+    }
+    100%{
+        transform: translateX(-10vw);
+    }
+}

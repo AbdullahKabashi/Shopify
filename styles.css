@@ -1,0 +1,13 @@
+div {
+    border:3px solid red;
+    font: size 40px;; 
+}
+html {
+    background-color: lightgrey;
+}
+
+p {
+    border :dashed 2px blue;
+    padding: 30px;
+    font-size:32px;
+}

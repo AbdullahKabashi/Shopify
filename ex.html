@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <form action="https://www.google.com/" method="GET">
+    <p>Select your gender:</p>
+    <label class="female-radio" for="female">Female</label>
+    <input type="radio" id="female" value="female" name="gender">
+    <label id="male-radio" for="male">Male</label>
+    <input type="radio" id="male" value="male" name="gender">
+
+    <p>Describe your experience</p>
+    <textarea name="experience" rows="10" cols="50">
+
+    </textarea>
+
+    <select name="profession" id="profession">
+      <option disabled selected value="">Select your profession</option>
+      <option value="front-end">Front End Developer</option>
+      <option value="back-end">Backend End Developer</option>
+      <option value="full-stack">Full Stack Developer</option>
+    </select>
+
+    <input list="languages">
+      <datalist id="languages">
+        <option value="Javascript">
+        <option value="Java">
+        <option value="PHP">
+        <option value="Go">
+        <option value="Go BLA">
+        <option value="Python">
+      </datalist>
+
+      <div>
+        <dl>
+          <dt>Html</dt>
+          <dd>- Hyper &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Text Markup Language</dd>
+          <dt>CSS</dt>
+          <dd>- Cascading Style Sheet</dd>
+        </dl>
+
+      </div>
+
+      <div class="languages">
+        <ul>
+          <li class="first">Albanian - is used in <span>Kosova &amp; Albania</span> Countries</li>
+          <li class="second">English - is used in <span>United &lt;Kingdom &amp; USA</span></li>
+          <li>German</li>
+        </ul>
+      </div>
+      
+      <div class="programming-languages">
+        <ul>
+          <li class="first">Javascript - is used for <span>web development</span> mostly</li>
+          <li class="second">Java</li>
+          <li>Python</li>
+        </ul>
+      </div>
+
+    <input disabled type="submit">
+  </form>
+</body>
+</html>

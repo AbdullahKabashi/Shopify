@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 1px solid red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+}
+
+.container nav {
+  width: 600px;
+}
+
+.container nav ul {
+  display: flex;
+}
+
+.container nav ul li {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  font-size: 20px;
+  padding: 8px 0;
+  font-family: 'Anton', sans-serif;
+  background-color: forestgreen;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  display: none;
+  margin-top: 8px;
+  background-color: purple;
+}
+
+.li:hover .dropdown{
+  display: block;
+}
+.container ul li:hover{
+  background-color: purple;
+}
+.services:hover {
+  background-color: purple;
+}
+.services:hover .dropdown{
+  display: block;
+}

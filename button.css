@@ -1,0 +1,16 @@
+button{
+    border: 2px solid blue;
+    background-color: rgb(77, 77, 207);
+    display: inline;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+button:active {
+    border-radius: 40%;
+}

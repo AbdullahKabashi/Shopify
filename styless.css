@@ -1,0 +1,12 @@
+p {border: 2px solid red;
+}
+
+.fill {
+    background-color: blueviolet;
+}
+.p-margin{
+    margin: 30px;
+}
+.p-padding{
+    padding: 40px;
+}

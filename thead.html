@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".css">
+    <title>Detyre table</title>
+</head>
+<body>
+    <table>
+         <thead>
+            <tr>
+                <th>ID</th>
+                <th>Emri</th>
+                <th>Mbiemri</th>
+                <th>Ditelindja</th>
+                <th>Nr.Telefonit</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Artan</td>
+                <td>Berisha</td>
+                <td>04/05/2004</td>
+                <td>049783948</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Besnik</td>
+                <td>Krapi</td>
+                <td>09/12/1984</td>
+                <td>044980534</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Orik</td>
+                <td>Mahmuti</td>
+                <td>23/04/2004</td>
+                <td>043432879</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="https://www.google.com/" method="get">
+        <label for="name">Name</label>
+        <input id="name" name="first name" placeholder="Write your name here">
+        <br>
+        <label for="lastname">Lastname</label>
+        <input name="lastname" id="lastname" placeholder="Write your lastname here">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Write your email here">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Write your password here">
+        <br>
+        <p>Your preferable fruits</p>
+        <label for="strawberry">Strawberry</label>
+        <input type="checkbox" value="strawberry" name="strawberry">
+        <label for="banana">Banana</label>
+        <input type="checkbox" value="banana" id="banana">
+        <label for="other">Other</label>
+        <input type="checkbox" value="other" id="other">
+        <br>
+        <input type="file">
+        <br>
+        <p>Gender</p>
+        <label for="Male">Male</label>
+        <input type="radio" id="male" name="Gender">
+
+        <label for="Female">Female</label>
+        <input type="radio" id="female" name="Gender">
+        <br>
+        <button type="submit">Submit form!</button>
+    </form>
+</body>
+</html>

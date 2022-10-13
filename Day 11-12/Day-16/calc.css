@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  nav {
+    height: 80px;
+    background-color: lightcoral;
+  }
+  
+  .cover {
+    height: calc(100vh - 80px);
+    background-color: lightgreen;
+  }
+  
+  .cover .box {
+    border: 2px dashed green;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cover .box:hover {
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition-delay: 1s;
+    transition-duration: 3.5s;
+  }
+  
+  .services {
+    height: 100vh;
+    background-color: lightgray;
+  }
+  
+  .container {
+    /* width: 50%;
+    min-width: 400px; */
+    width: max(50%, 400px);
+  }

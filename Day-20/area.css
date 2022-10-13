@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.items{
+    display: grid;
+    background-color: rgb(63, 63, 184);
+    color: white;
+}
+.home{
+    grid-area: Home;
+}
+.about{
+    grid-area: About;
+}
+.widgets{
+    grid-area: Widgets;
+}
+.big-widgets{
+    grid-area: Big;
+}
+.bigger-widgets{
+    grid-area: Bigger;
+}
+.huge-widgets{
+    grid-area: Huge;
+}
+.kabobs{
+    grid-area: Kabobs;
+}
+.shishkabobs{
+    grid-area: Shish;
+}
+.bbq-kabobs{
+    grid-area: BBQ;
+}
+.summer-kabobs{
+    grid-area:Summer;
+}
+.contact{
+    grid-area: Contact;
+}
+.home,.widgets,.about,.kabobs,.contact{
+    background-color: rgb(51, 65, 196);
+    font-size: 25px;
+    justify-content: center;
+    align-items: center; 
+}
+.big-widgets,.bigger-widgets,.huge-widgets,.shishkabobs,.bbq-kabobs,.summer-kabobs{
+    background-color: rgb(4, 4, 107);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 25vh 25vh 25vh 25vh;
+    gap: 10px; 
+    grid-template-areas: 
+      'Home Home Home About About About Widgets Widgets Widgets Widgets Widgets Widgets'
+      'Home Home Home About About About Big Big Bigger Bigger Huge Huge'
+      'Kabobs Kabobs Kabobs Kabobs Kabobs Kabobs Contact Contact Contact Contact Contact Contact'
+      'Shish Shish BBQ BBQ Summer Summer Contact Contact Contact Contact Contact Contact ';
+}

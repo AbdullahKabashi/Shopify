@@ -1,0 +1,541 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.dev{
+    border: 1px solid red;
+    width: 100vw;
+    height: 50px;
+}
+.hero{
+    float: right;
+    width: 50vw;
+}
+.build{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    font-size: 35px;
+    /* font-weight: 500; */
+    padding-top: 150px;
+    margin-left: 100px;
+}
+.millions{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    margin-left: 100px;
+    width: 500px;
+    color: rgb(94, 86, 86);
+}
+.develop{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.expansive{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-left: 100px;
+    width: 500px;
+    color: rgb(94, 86, 86);
+}
+.integrate{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.embed{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-left: 100px;
+    width: 500px;
+    color: rgb(94, 86, 86);
+}
+.help{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.use{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-left: 100px;
+    width: 500px;
+    color: rgb(94, 86, 86);
+}
+.ship{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.add{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-left: 100px;
+    width: 500px;
+    color: rgb(94, 86, 86);
+}
+.start{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.wrapper{
+    height: 100vh;
+}
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 246, 246);
+    border: 1px solid rgb(177, 172, 172);
+    margin-top: 20px;
+    /* margin-left: 100px; */
+    border-radius: 5px;
+    width: 250px;
+    height: 60px;
+}
+.puzzle{
+    width: 50px;
+    /* padding-top: 7.5px; */
+    margin-left: 10px;
+    float: left;
+}
+.ps{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 75px;
+    position: absolute;
+}
+.button1 , .button3{
+    margin-left: 100px;
+}
+.button2 , .button4{
+    margin-left: 10px;
+}
+.button1:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 3px 0px 0px rgb(177, 172, 172);
+}
+
+.brush{
+    width: 50px;
+    margin-left: 10px;
+    float: left;
+}
+.th{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 75px;
+    position: absolute;
+}
+.button2{
+    margin-top: 5px;
+}
+.button2:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 3px 0px 0px rgb(177, 172, 172);
+}
+.store{
+    width: 50px;
+    margin-left: 10px;
+    float: left;
+}
+.st{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 12px;
+    margin-left: 75px;
+    position: absolute;
+}
+.button3:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 3px 0px 0px rgb(177, 172, 172);
+}
+.market{
+    width: 50px;
+    margin-left: 10px;
+    float: left;
+}
+.ma{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 75px;
+    position: absolute;
+}
+.button4:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 3px 0px 0px rgb(177, 172, 172);
+}
+.lightblue{
+    width: calc(100vw - 50px);
+    height: 70vh;
+    border-radius: 20px;
+    background-color: #e0faeb;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.launch{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 650px;
+    padding-top: 50px;
+    margin-left: 75px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.app{    
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-left: 75px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.get{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-left: 75px;
+    width: 650px;
+    color: rgb(94, 86, 86);
+    font-size: 16px;
+}
+.thst{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-left: 75px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.sell{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-left: 75px;
+    font-size: 16px;
+    width: 650px;
+    color: rgb(94, 86, 86);
+}
+.border{
+    border: 2px solid black;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-top: 60px;
+    margin-right: 100px;
+    float: right;
+    box-shadow: 10px 10px 0px 0px black;
+}
+.coin{
+    margin-left: 50px;
+    margin-top: 80px;
+    position: absolute;
+}
+.USD{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    margin-top: 70px;
+    margin-right: 30px;
+    font-size: 15px;
+    float: right;
+    font-weight: bold;
+}
+.rev{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    font-size: 15px;
+    margin-right: 30px;
+    margin-top: 5px;
+    float: right;
+    color: rgb(94, 86, 86);
+}
+.hearts{
+    margin-left: 50px;
+    margin-top: 160px;
+    position: absolute;
+}
+.merchant{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    margin-top: 40px;
+    margin-right: 80px;
+    font-size: 15px;
+    float: right;
+    font-weight: bold;
+}
+.puzz{
+    margin-left: 50px;
+    margin-top: 235px;
+    position: absolute;
+}
+.ana{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    margin-top: 40px;
+    margin-right: 30px;
+    font-size: 15px;
+    float: right;
+    font-weight: bold;
+}
+.jcb{
+    height: 50vh;
+}
+.jc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.boxx{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    height: 150px;
+    width: 285px;
+}
+.joc{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.join{
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.gxng{
+    background-color: rgb(252, 243, 243);
+    border: none;
+    border-radius: 10px;
+    height: 150px;
+    width: 285px;
+}
+.df{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+.dfo{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.qa{
+    position: absolute;
+    float: left;
+    margin-right: 50px;
+    margin-top: 80px;
+    width: 250px;
+    height: 30px;
+    color: rgb(94, 86, 86);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.ds{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+.deve{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.coll{
+    position: absolute;
+    float: left;
+    margin-right: 50px;
+    margin-top: 80px;
+    width: 250px;
+    height: 30px;
+    color: rgb(94, 86, 86);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif ;
+}.sdt{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+.sho{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.prod{
+    position: absolute;
+    float: left;
+    margin-right: 50px;
+    margin-top: 80px;
+    width: 250px;
+    height: 30px;
+    color: rgb(94, 86, 86);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif ;
+}.dc{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+.dch{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.ecs{
+    position: absolute;
+    float: left;
+    margin-right: 50px;
+    margin-top: 80px;
+    width: 250px;
+    height: 30px;
+    color: rgb(94, 86, 86);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif ;
+}.sdy{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+.shyt{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.tips{
+    position: absolute;
+    float: left;
+    margin-right: 50px;
+    margin-top: 80px;
+    width: 250px;
+    height: 30px;
+    color: rgb(94, 86, 86);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif ;
+}.sdd{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+.shdi{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.csd{
+    position: absolute;
+    float: left;
+    margin-right: 50px;
+    margin-top: 80px;
+    width: 250px;
+    height: 30px;
+    color: rgb(94, 86, 86);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif ;
+}.spb{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+.shpa{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.erap{
+    position: absolute;
+    float: left;
+    margin-right: 50px;
+    margin-top: 80px;
+    width: 250px;
+    height: 30px;
+    color: rgb(94, 86, 86);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.boxx:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 3px 0px 0px rgb(177, 172, 172);
+}
+.footer{
+    margin-top: 50px;
+    height: 45vh;
+    width: calc(100vw - 50px);
+    margin-left: 25px;
+    background-color: rgb(232, 238, 247);
+    border-start-start-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+ li{
+    display: flex;
+    flex-direction: column;
+    color: rgb(94, 86, 86);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding-top: 10px;
+}
+.ul{
+    /* position: absolute; */
+    margin-top: 50px ;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.foots{
+    height: 10vh;
+    width: calc(100vw - 50px);
+    background-color: rgb(237, 243, 243);
+    margin-left: 25px;
+    border-end-end-radius: 10px;
+}
+.p{
+    display: flex;
+    gap: 15px;
+    margin-left: 100px;
+}
+.ash{
+    margin-top: 25px;
+    color: rgb(94, 86, 86);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ash:hover{
+    color: black;
+    cursor: pointer;
+}
+li:hover{
+    color: black;
+    cursor: pointer;
+}
